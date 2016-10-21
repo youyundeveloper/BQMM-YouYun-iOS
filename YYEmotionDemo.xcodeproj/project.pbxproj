@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C60130E31DB9E04100094916 /* libWChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C60130E21DB9E04100094916 /* libWChatSDK.a */; };
 		C614CD0E1D8023C400AEF2BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C614CD0D1D8023C400AEF2BF /* main.m */; };
 		C614CD111D8023C400AEF2BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C614CD101D8023C400AEF2BF /* AppDelegate.m */; };
 		C614CD171D8023C400AEF2BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C614CD151D8023C400AEF2BF /* Main.storyboard */; };
 		C614CD191D8023C400AEF2BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C614CD181D8023C400AEF2BF /* Assets.xcassets */; };
 		C614CD1C1D8023C400AEF2BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C614CD1A1D8023C400AEF2BF /* LaunchScreen.storyboard */; };
 		C6403C081D810F83002A7BB3 /* public.der in Resources */ = {isa = PBXBuildFile; fileRef = C6403C011D810F83002A7BB3 /* public.der */; };
-		C6403C091D810F83002A7BB3 /* libWChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6403C061D810F83002A7BB3 /* libWChatSDK.a */; };
 		C6403C0A1D810F83002A7BB3 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = C6403C071D810F83002A7BB3 /* README.md */; };
 		C6403C0C1D810FA2002A7BB3 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C6403C0B1D810FA2002A7BB3 /* libsqlite3.tbd */; };
 		C6403C0E1D810FAF002A7BB3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6403C0D1D810FAF002A7BB3 /* Security.framework */; };
@@ -51,6 +51,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C60130E21DB9E04100094916 /* libWChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWChatSDK.a; sourceTree = "<group>"; };
 		C614CD091D8023C400AEF2BF /* YYEmotionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYEmotionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C614CD0D1D8023C400AEF2BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C614CD0F1D8023C400AEF2BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -64,7 +65,6 @@
 		C6403C031D810F83002A7BB3 /* WChatSDK+ChatRoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WChatSDK+ChatRoom.h"; sourceTree = "<group>"; };
 		C6403C041D810F83002A7BB3 /* WChatSDK+ServiceRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WChatSDK+ServiceRequest.h"; sourceTree = "<group>"; };
 		C6403C051D810F83002A7BB3 /* WChatSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WChatSDK.h; sourceTree = "<group>"; };
-		C6403C061D810F83002A7BB3 /* libWChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWChatSDK.a; sourceTree = "<group>"; };
 		C6403C071D810F83002A7BB3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C6403C0B1D810FA2002A7BB3 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		C6403C0D1D810FAF002A7BB3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
@@ -130,10 +130,10 @@
 				C6403C141D810FC3002A7BB3 /* SystemConfiguration.framework in Frameworks */,
 				C6403C311D813415002A7BB3 /* BQMM.framework in Frameworks */,
 				C6403C121D810FBC002A7BB3 /* CoreTelephony.framework in Frameworks */,
+				C60130E31DB9E04100094916 /* libWChatSDK.a in Frameworks */,
 				C6403C101D810FB5002A7BB3 /* CFNetwork.framework in Frameworks */,
 				C6403C0E1D810FAF002A7BB3 /* Security.framework in Frameworks */,
 				C6403C0C1D810FA2002A7BB3 /* libsqlite3.tbd in Frameworks */,
-				C6403C091D810F83002A7BB3 /* libWChatSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,8 +199,8 @@
 			isa = PBXGroup;
 			children = (
 				C6403C001D810F83002A7BB3 /* include */,
-				C6403C061D810F83002A7BB3 /* libWChatSDK.a */,
 				C6403C071D810F83002A7BB3 /* README.md */,
+				C60130E21DB9E04100094916 /* libWChatSDK.a */,
 			);
 			path = WChatSDK;
 			sourceTree = "<group>";

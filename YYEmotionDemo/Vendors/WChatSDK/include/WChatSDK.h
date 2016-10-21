@@ -556,6 +556,13 @@
  */
 + (NSString *)getUDID;
 
+/**
+ *  如果想集成表情云服务，请在初始化SDK后调用此方法。
+ *
+ *  @return  YES: 开启表情云服务成功，NO: 开启表情云服务失败,(SDK未成功初始化)
+ */
++ (BOOL)startEmotionFunction;
+
 #pragma mark - 语音相关
 /**
  *  @brief 获取wchat的端口

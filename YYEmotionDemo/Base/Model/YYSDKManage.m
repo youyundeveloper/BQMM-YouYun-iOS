@@ -11,12 +11,13 @@
 
 #import "SAMKeychain.h"
 #import "ChatMessage.h"
+#import <BQMM/BQMM.h>
 
 
 NSInteger const kPlatform = 1;
 
-NSString * const CLIENT_ID = kPlatform ? @"1-20521-1b766ad17389c94e1dc1f2615714212a-ios" : @"1-20140-201c24b1df50a4e3a8348274963ab0a6-ios";
-NSString * const SECRET    = kPlatform ? @"d5cf0a5812b4424f582ded05937e4387" : @"9d12b16f31926616582eabcf66a2a6ad";
+NSString * const CLIENT_ID = kPlatform ? @"1-20533-ce8d0aeae862ec82700ff3e91efccc06-ios" : @"1-20150-432c2fbc9edef1b0e2b9935edb579886-ios";
+NSString * const SECRET    = kPlatform ? @"c8f3a20d5139222958f568a7f2101e51" : @"14b5d9fb6ac45d5f4c40e46e6bb49a35";
 
 @interface YYSDKManage ()
 
@@ -67,6 +68,8 @@ NSString * const SECRET    = kPlatform ? @"d5cf0a5812b4424f582ded05937e4387" : @
     } else {
         [_sharedWChat testRegisterApp:udid clientId:CLIENT_ID secret:SECRET delegate:self];
     }
+    // 开启表情云服务
+    [WChatSDK startEmotionFunction];
 }
 
 - (void)sendChatMessage:(ChatMessage *)message targetID:(NSString *)targetID {

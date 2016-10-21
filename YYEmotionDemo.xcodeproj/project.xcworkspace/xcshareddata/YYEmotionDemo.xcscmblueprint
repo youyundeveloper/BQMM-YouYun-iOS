@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "52780B7040D59BFD2BEB179D1F4A16130A6F1240",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "52780B7040D59BFD2BEB179D1F4A16130A6F1240" : 9223372036854775807,
+    "3528F7EB3CD1CA71730028012BED81F82E2BB93F" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5BB342F1-9C28-4B0F-AEAD-0F20B79F0344",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "52780B7040D59BFD2BEB179D1F4A16130A6F1240" : "BQMM-YouYun-iOS\/",
+    "3528F7EB3CD1CA71730028012BED81F82E2BB93F" : "..\/..\/YouYunIM\/WChatSDK"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "YYEmotionDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "YYEmotionDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "gitlab.hiwemeet.com:chatplussdk\/wchatsdk.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3528F7EB3CD1CA71730028012BED81F82E2BB93F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:youyundeveloper\/BQMM-YouYun-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "52780B7040D59BFD2BEB179D1F4A16130A6F1240"
+    }
+  ]
+}
